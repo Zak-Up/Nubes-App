@@ -1,0 +1,113 @@
+
+.App {
+  text-align: center;
+}
+
+.navbar{
+  background-color: rgb(255, 255, 255);
+  color: white;
+}
+
+.input-group{
+  width: 55%;
+}
+
+.card{
+  max-width: 75%;
+  background-color: rgba(2, 4, 53, 0.571);
+  box-shadow: 6px 6px 5px rgba(0, 0, 0, 0.4);
+}
+
+.h3{
+  text-align: center;
+}
+
+.pimg{
+  text-align: center;
+}
+
+.grado{
+  color: rgb(204, 141, 6);
+  font-size: 45px;
+}
+
+.description{
+  font-size: 13px;
+}
+
+.card-title{
+  position: absolute;
+  padding: 20px;
+  font-size: 30px;
+}
+
+.card-date{
+  position: absolute;
+  padding: 20px;
+  margin-left: 20px;
+  font-size: 15px;
+  margin-top: 3rem;
+}
+
+.card-temp{
+  position: absolute;
+  padding-left: 20px;
+  margin-top: 268px;
+  font-size: 50px;
+}
+
+.card-desc{
+  position: absolute;
+  padding-left: 20px;
+  margin-top: 320px;
+}
+
+.navimg{
+  max-width: 80px;
+  margin-left: 3rem;
+}
+
+.nubes{
+  margin-right: 78%;
+}
+
+/* Responsive */
+@media screen and (max-width: 390px) {
+  .input-group {
+    max-width: 250px;
+  }
+
+  .card {
+    max-width: 70%;
+    background-color: rgba(2, 4, 53, 0.571);
+  }
+
+  .navimg {
+    max-width: 80px;
+    margin-left: 1rem;
+  }
+
+  .nubes {
+    margin-right: 45%;
+  }
+
+  .card-temp {
+    margin-top: 248px;
+  }
+
+  .card-desc {
+    padding-left: 10px;
+    margin-top: 300px;
+  }
+
+}
+
+
+@media screen and (max-width: 520px){
+  .navimg {
+      max-width: 80px;
+      margin-left: 0.25rem;
+    }
+};
+
+
